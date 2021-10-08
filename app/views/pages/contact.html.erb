@@ -1,0 +1,10 @@
+<h1>Contact Us</h1>
+
+<!-- <%=  %> -> Executa e printa
+<% %> -> Apenas Executa
+-->
+<ol>
+  <% @members.each do |member| %>
+    <li><%= member.capitalize %></li>
+  <% end %>
+</ol>
